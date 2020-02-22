@@ -39,9 +39,4 @@ while guess != secret_number:
         continue
     else:
         print("You win!!")
-        play_again = input("would you like to play again?? ")
-        if play_again.lower().startswith("y"):
-            guess = int(input("enter your guess: "))
-            continue
-        else:
-            sys.exit()
+        sys.exit()
